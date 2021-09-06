@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/actionHome"
+        android:title="@string/action_Home"
+        android:icon="@drawable/baseline_home_black_24dp"
+        ></item>
+    <item android:id="@+id/actionSongs"
+        android:title="@string/action_Songs"
+        android:icon="@drawable/songs"
+        ></item>
+    <item android:id="@+id/actionAlbums"
+        android:title="@string/action_Albums"
+        android:icon="@drawable/album"
+        ></item>
+    <item android:id="@+id/actionArists"
+        android:title="@string/action_Arists"
+        android:icon="@drawable/artist_music"
+        ></item>
+    <item android:id="@+id/actionPlayList"
+        android:title="@string/action_Playlist"
+        android:icon="@drawable/outline_playlist_play_black_24dp"
+        ></item>
+</menu>

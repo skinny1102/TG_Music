@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TG Music</string>
+    <string name="action_Home">Home</string>
+    <string name="action_Songs">Bài Hát</string>
+    <string name="action_Albums">Albums</string>
+    <string name="action_Arists">Ca Sĩ</string>
+    <string name="action_Playlist">PlayList</string>
+</resources>
