@@ -6,6 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
+    <include
+        layout="@layout/appbar">
+    </include>
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"

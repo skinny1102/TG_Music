@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/white"
+    android:id="@+id/myToolBar"
+    app:title="@string/app_name"
+    app:titleTextAppearance="@style/styleX"
+    android:theme="@style/MyTheme"
+    app:popupTheme="@style/MyTheme"
+    >
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_setting"-->
+<!--        android:layout_gravity="end"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:src="@drawable/icon_setting"-->
+<!--        />-->
+<!--    <ImageView-->
+<!--        android:id="@+id/img_micro"-->
+<!--        android:layout_gravity="end"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:src="@drawable/icon_micro"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/img_searh"-->
+<!--        android:layout_gravity="end"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:src="@drawable/icon_seach"-->
+<!--        />-->
+</androidx.appcompat.widget.Toolbar>

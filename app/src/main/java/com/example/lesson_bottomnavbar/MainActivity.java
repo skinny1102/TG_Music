@@ -2,14 +2,18 @@ package com.example.lesson_bottomnavbar;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+
 
 import com.example.jean.jcplayer.view.JcPlayerView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -18,11 +22,16 @@ public class MainActivity extends AppCompatActivity {
     private BottomNavigationView navigationView;
     private ViewPager viewPager;
     JcPlayerView jcPlayerView;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        toolbar=findViewById(R.id.myToolBar);
+        setSupportActionBar(toolbar);
+
         navigationView = findViewById(R.id.bottomNav);
         viewPager = findViewById(R.id.viewPager);
          jcPlayerView = findViewById(R.id.jcplayer);
